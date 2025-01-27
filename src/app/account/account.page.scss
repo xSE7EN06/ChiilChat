@@ -1,0 +1,38 @@
+.contenidoImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    position: relative;
+  }
+  
+  .profile-avatar {
+    width: 160px;
+    height: 160px;
+    position: relative;
+  }
+  
+  .profile-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .fab-custom-position {
+    position: absolute;
+    right: 0px;   
+    transform: translateX(30%); 
+  }
+  
+  ion-fab-button {
+    --size: 20px;
+    font-size: 20px;
+  }
+
+  #custom-status-list {
+    --background: transparent !important;
+    --ion-item-background: transparent !important;
+    --border-color: transparent !important;
+    --inner-border-width: 0px !important;
+}

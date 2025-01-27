@@ -25,3 +25,30 @@
 #container a {
   text-decoration: none;
 }
+
+#custom-status-list {
+  --background: transparent !important;
+  --ion-item-background: transparent !important;
+  --border-color: transparent !important;
+  --inner-border-width: 0px !important;
+}
+
+.date-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;  /* Espaciado entre el icono y el texto */
+}
+
+.date-icon ion-icon {
+  font-size: 1.2em; /* Ajusta el tamaño del ícono si es necesario */
+}
+
+.date-icon p {
+  margin: 0;  /* Elimina el margen predeterminado del párrafo */
+  font-size: 0.9em; /* Ajusta el tamaño de fuente si es necesario */
+  color: var(--ion-color-medium); /* Color de Ionic para texto secundario */
+}
+
+ion-fab-button{
+  --border-radius: 15px;
+}
